@@ -1,0 +1,336 @@
+@font-face {
+    font-family: "Suisse Int'l",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;
+    src: url(http://www.swisstypefaces.com);
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+body {
+    font-family: "Suisse Int'l", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #f74c25;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f7f6f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f7f6f2;
+    color: #f74c25;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #f7f6f2;
+    color: #f74c25;
+  }
+
+  .footer {
+    position:static;
+    left: 20px;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: left;
+  }
+
+  .page_title {
+    color: #f74c25;
+    font-size: xx-large;
+  }
+
+  .re {
+    font-family: 'Ibarra Real Nova', serif;
+    position:relative;
+    text-align: left;
+    left: 40px;
+  }
+  
+.product {
+    position:relative;
+    text-align: right;
+    right: 40px;
+    bottom: 100px;
+}
+
+  #list{
+    color: #f74c25;
+    font-size:larger;
+  }
+
+  #eggs {
+    position: relative;
+    left: 70px;
+    top: 30px;
+  }
+
+  #bayleaf {
+    position:relative;
+    left: 600px;
+    bottom: 450px;
+  }
+
+  #tahini {
+    position: relative;
+    left: 70px;
+    bottom: 200px;
+  }
+
+  #protein {
+    position:relative;
+    left: 600px;
+    bottom: 630px;
+  }
+
+  #heirloom {
+    position: relative;
+    left: 70px;
+    bottom: 350px;
+  }
+
+  #pretzel {
+    position:relative;
+    left: 600px;
+    bottom: 820px;
+  }
+
+  #oil {
+    position: relative;
+    left: 70px;
+    bottom: 500px;
+  }
+
+  #basmati {
+    position:relative;
+    left: 600px;
+    bottom: 955px;
+  }
+
+  #hibiscus {
+    position: relative;
+    left: 70px;
+    bottom: 650px;
+  }
+
+  #cranberries {
+    position:relative;
+    left: 600px;
+    bottom: 1120px;
+  }
+
+  .boxes {
+    padding:8px;
+    border-style:solid;
+    border-color:#f74c25;
+    margin:8px;
+    border-radius: 15px;
+  }
+
+
+  #details {
+    color:#f74c25;
+  }
+
+  #egg_details {
+    position: relative;
+    left: 70px;
+    top: 5px;
+  }
+
+  #egg_description {
+    position:relative;
+    left: 600px;
+    bottom: 400px;
+    font-size:larger;
+  }
+
+  .wrapper {
+    width:80px;
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:#f7f6f2;
+    border-radius: 12px;
+    color:#f74c25;
+    border-style:solid;
+    border-color:#f74c25;
+  }
+
+  .wrapper span{
+    width: 100%;
+    text-align:center;
+    font-size:medium;
+    font-weight: 100;
+    cursor: pointer;
+  }
+
+  .wrapper span.num{
+    font-size:medium;
+    pointer-events: none;
+  }
+
+  .add_to_cart {
+    width: 120px;
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#f7f6f2;
+    background:#f74c25;
+    border-radius: 12px;
+    border-style:solid;
+    border:#f74c25;
+    position: relative;
+    left: 120px;
+    bottom:35px;
+  }
+
+  .link {
+    color:#f7f6f2;
+  }
+
+  .product_link {
+    color:#f74c25;
+  }
+
+  .related_products {
+    text-align: center;
+    font-size:xx-large;
+  }
+
+  #homepage_title {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ibarra Real Nova', serif;
+    color:#f74c25;
+    position: relative;
+    bottom: 50px;
+
+  }
+
+  #homepage_body {
+    background-color: #f7f6f2;
+  }
+
+  .product_button {
+    width: 300px;
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-style:solid;
+    border:30px #f74c25;
+    background:#f74c25;
+    font-size:xx-large;
+    position: relative;
+    left: 300px;
+    top:100px;
+  }
+
+  .cart_button {
+    width: 300px;
+    height:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#f7f6f2;
+    background:#f74c25;
+    border-radius:200px;
+    border-style:solid;
+    border:30px #f74c25;
+    position: relative;
+    left: 900px;
+    bottom:200px;
+    font-size:xx-large;
+  }
+
+  .homepage_links {
+    color:#f7f6f2;
+  }
+
+  #re_description {
+    background-color: #f74c25;
+    color:#f7f6f2;
+  }
+
+  #re_homepage {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 200px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+  }
+
+  #re_presentation {
+    position:relative;
+    left: 800px;
+    bottom:100px;
+    font-size:xx-large;
+  }
+
+  .list {
+    color:#f7f6f2;
+    background-color: #f74c25;
+    position: relative;
+    left: 1050px;
+    bottom: 4570px;
+    font-size:x-large;
+  }
+
+  /*.carousel {
+    position:relative;
+  }
+
+  .carousel__item {
+    height:300px;
+    background:white;
+    padding:1em;
+    font-family:"Suisse Int'l",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight:bold;
+    font-size:2em;
+    color:#f74c25;
+    display:none;
+  }
+
+  .carousel__item--selected {
+    display: block;
+  }
+
+  .carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align: center;
+  }
+
+  .carousel__button {
+    width:10px;
+    height:10px;
+    display: inline-block;
+    background: #f74c25;
+    border-radius:50%;
+    margin:0 5px;
+    cursor:pointer;
+  }
+
+  .carousel__button--selected {
+    background-color:#e07056;
+  }*/
+
